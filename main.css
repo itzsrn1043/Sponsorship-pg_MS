@@ -28,8 +28,8 @@ body{
     width:60%
     margin:40px auto;
 }
-h1{font-size: 65px;}
-.responsive h1{font-size:4.5 vw;}
+h2{font-size: 65px;}
+.responsive h2{font-size:4.5 vw;}
 span {
   background: 50% 100% / 50% 50% no-repeat
               radial-gradient(ellipse at bottom, #fff, transparent, transparent);
