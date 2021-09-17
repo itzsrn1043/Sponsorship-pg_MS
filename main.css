@@ -18,13 +18,18 @@ body{
     background-color: rgba(7, 7, 63, 0.938);   
 }
 .corn{
-    margin: 10vh;
+    margin: 10;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Sedgwick Ave', cursive;  
   }
-
+.responsive{
+    width:60%
+    margin:40px auto;
+}
+h1{font-size: 65px;}
+.responsive h1{font-size:4.5 vw;}
 span {
   background: 50% 100% / 50% 50% no-repeat
               radial-gradient(ellipse at bottom, #fff, transparent, transparent);
@@ -34,7 +39,7 @@ span {
   font-size: 35.49px;
   animation: reveal 3000ms ease-in-out forwards 200ms,
              glow 2500ms linear infinite 2000ms;}
-.responsive h2{font-sie: 4.8vw;}
+
   @keyframes reveal {
     80%{
       letter-spacing: 8px;
