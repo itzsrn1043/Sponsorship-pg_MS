@@ -24,7 +24,7 @@ html
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(7, 7, 63, 0.938);
+    
 }
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
@@ -33,7 +33,7 @@ html
 body{
     color: #fff;
     height: 100%;
-    background-color: rgba(7, 7, 63, 0.938);   
+      
 }
 .corn{
     margin: 10;
