@@ -2,6 +2,12 @@
     margin: 10;
     padding: 0;   
 }
+.outer{
+    overflow-y: visible;
+}
+.middle{
+    overflow-x: hidden;
+}
 html
 {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,#FFA500,#FFDF00);
@@ -43,11 +49,13 @@ body{
     font-family: 'Sedgwick Ave', cursive;  
   }
 .responsive{
-    width:60%
-    margin: 40px auto;
+    width:60%;
+    margin: 20px auto;
 }
 h1{font-size: 60px;}
-.responsive h1{font-size: 5vw;}
+.responsive h1{
+    font-size: 5vw;    
+}
 span {
   background: 50% 100% / 50% 50% no-repeat
               radial-gradient(ellipse at bottom, #fff, transparent, transparent);
@@ -64,6 +72,7 @@ span {
     }
     100% {
       background-size: 300% 300%;
+      letter-spacing: 5px;
     }
   }
   @keyframes glow {
@@ -112,7 +121,7 @@ span {
 }
 .container .cards .content{
     position: relative;
-    margin-top: -140px; 
+    margin-top: -80px; 
     padding: 10px 15px;
     text-align: center;
     color: #111;
